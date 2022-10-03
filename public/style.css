@@ -110,7 +110,7 @@ footer {
   }
 } */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 650px) {
   /* body {
       background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.5)), url('images/breakfast.jpg');
       background-size: cover;
@@ -126,7 +126,7 @@ footer {
 
   .container {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       margin-bottom: 1rem;
   }
   
