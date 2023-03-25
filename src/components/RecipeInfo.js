@@ -6,7 +6,7 @@ export default class RecipeInfo extends React.Component {
     return (
       <div className="container">
         <h2>Grandma's Delicious<br />{this.props.title}</h2>
-        <img className="img-hero" src={this.props.imageUrl} alt="Pancakes" />
+        <img className="img-hero" src={this.props.imageUrl} alt={this.props.title} />
         <h2>Directions</h2>
         <div className="directions container">
           <div className="ingredients">
